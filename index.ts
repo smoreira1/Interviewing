@@ -1,4 +1,6 @@
 // Import stylesheets
+import { palindromeNumberResults } from './problems/palindromeNumber';
+import { uniquePathsIIIResults } from './problems/uniquePathsIII';
 import './style.css';
 
 // Write TypeScript code!
@@ -127,4 +129,4 @@ function example3() {
   return assert(grid, 0);
 }
 
-appDiv.innerHTML = `<p>${example1()}</P> ------ <p>${example2()}</p> ----- <p>${example3()}</p>`;
+appDiv.innerHTML = uniquePathsIIIResults() + palindromeNumberResults();
