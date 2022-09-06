@@ -1,5 +1,6 @@
 // Import stylesheets
 import { palindromeNumberResults } from './problems/palindromeNumber';
+import { romainToIntResults } from './problems/romainToInteger';
 import { uniquePathsIIIResults } from './problems/uniquePathsIII';
 import './style.css';
 
@@ -129,4 +130,5 @@ function example3() {
   return assert(grid, 0);
 }
 
-appDiv.innerHTML = uniquePathsIIIResults() + palindromeNumberResults();
+appDiv.innerHTML =
+  uniquePathsIIIResults() + palindromeNumberResults() + romainToIntResults();
