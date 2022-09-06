@@ -5,14 +5,14 @@ function romanToInt(s: string): number {
   const intArray = [];
   for (let i = 0; i < romanToInt.length; i++) {
     if (romanArray[i] === 'I') {
-      intArray.unshift(i);
+      // intArray.unshift(i);
     }
   }
 
   let int = 0;
-  for (let i = 0; i < intArray.length; i++) {
-    int = int + intArray[i];
-  }
+  // for (let i = 0; i < intArray.length; i++) {
+  //   int = int + intArray[i];
+  // }
   return int;
 }
 
