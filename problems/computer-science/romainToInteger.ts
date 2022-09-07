@@ -1,4 +1,4 @@
-import { assert } from '../assert';
+import { assert } from '../../assert';
 //https://leetcode.com/problems/roman-to-integer/
 function romanToInt(s: string): number {
   const romanArray = s.split('');

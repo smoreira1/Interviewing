@@ -1,4 +1,4 @@
-import { assert } from '../assert';
+import { assert } from '../../assert';
 
 function longestCommonPrefix(strs: string[]): string {
   let longestPrefix: Array<any> = [];

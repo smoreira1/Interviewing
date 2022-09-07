@@ -1,9 +1,9 @@
 // Import stylesheets
-import { longestCommonPrefixResults } from './problems/longestCommonPrefix';
-import { arithmeticTripletsResults } from './problems/numberOfArithmeticTriplets';
-import { palindromeNumberResults } from './problems/palindromeNumber';
-import { romainToIntResults } from './problems/romainToInteger';
-import { uniquePathsIIIResults } from './problems/uniquePathsIII';
+import { longestCommonPrefixResults } from './problems/computer-science/longestCommonPrefix';
+import { arithmeticTripletsResults } from './problems/computer-science/numberOfArithmeticTriplets';
+import { palindromeNumberResults } from './problems/computer-science/palindromeNumber';
+import { romainToIntResults } from './problems/computer-science/romainToInteger';
+import { uniquePathsIIIResults } from './problems/computer-science/uniquePathsIII';
 import './style.css';
 
 // Write TypeScript code!

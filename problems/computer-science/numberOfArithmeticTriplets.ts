@@ -1,4 +1,4 @@
-import { assert } from '../assert';
+import { assert } from '../../assert';
 
 function arithmeticTriplets(nums: number[], diff: number): number {
   const stack = [];

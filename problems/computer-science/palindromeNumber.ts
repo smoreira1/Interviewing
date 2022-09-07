@@ -1,4 +1,4 @@
-import { assert } from '../assert';
+import { assert } from '../../assert';
 
 function isPalindrome(x: number): boolean {
   const stringNumber = x.toString();
