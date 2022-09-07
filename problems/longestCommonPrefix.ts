@@ -13,16 +13,12 @@ function longestCommonPrefix(strs: string[]): string {
           currentPrefix.push(s1[k]);
         }
         if (s1[k] !== s2[k]) {
-          longestPrefix =
-            currentPrefix.length > longestPrefix.length
-              ? currentPrefix
-              : longestCommonPrefix;
           continue;
         }
       }
     }
   }
-  return longestPrefix.join('');
+  return '';
 }
 
 function example1() {
